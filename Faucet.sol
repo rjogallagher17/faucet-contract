@@ -4,7 +4,7 @@ contract Faucet2 {
 
 	function withdraw(uint withdraw_amount, uint key) public {
 
-        require(key == 6);
+        require(key == 1001);
 
 		require(withdraw_amount <= 1000000000000000000);
 
